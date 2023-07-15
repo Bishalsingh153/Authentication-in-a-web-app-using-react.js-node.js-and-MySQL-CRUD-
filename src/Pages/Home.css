@@ -1,0 +1,274 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/finalbe.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: -8.5%;
+    margin-top: -7px;
+
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: yellow;
+    border-color: yellow;
+    border-width: 3px;
+    
+
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: yellow;
+    margin-left: 38%;
+    margin-top: -12%;
+
+}
+.h1{
+    margin: 10px 0px 30px;
+    line-height: 80px;
+    color: black;
+    font-family: cursive;
+    
+
+}
+h5{
+    color: yellow;
+    font-family: sans-serif;
+    
+}
+.side-image{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545d,#000729);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.feat h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 45%;
+    margin-top: 10%;
+    text-decoration: underline 9px yellow;
+
+}
+.maincontainer1{
+    position: relative;
+    width: 250px;
+    height: 320px;
+   
+}
+
+.thecard1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.thecard1:hover{
+    transform: rotateY(180deg);
+}
+.thefront1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+    text-align: center;
+    font-family: 'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.thefront1 h3{
+    margin-top: 50%;
+}
+.theback1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #5fcf80;
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: 'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.theback1 p{
+    margin-top: 20px;
+}
+.maincontainer2{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin-left: 40%;
+    margin-top: -21%;
+}
+
+.thecard2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.thecard2:hover{
+    transform: rotateY(180deg);
+}
+.thefront2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+    text-align: center;
+    font-family: 'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.thefront2 h3{
+    margin-top: 50%;
+}
+.theback2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #5fcf80;
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: 'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.theback2 p{
+    margin-top: 20px;
+}
+.maincontainer3{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin-left: 75%;
+    margin-top: -21%;
+}
+
+.thecard3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.thecard3:hover{
+    transform: rotateY(180deg);
+}
+.thefront3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+    text-align: center;
+    font-family: 'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.thefront3 h3{
+    margin-top: 50%;
+}
+.theback3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #5fcf80;
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: 'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.theback3 p{
+    margin-top: 20px;
+}
+.locationicon{
+    width: 130px;
+    margin-bottom: -180px;
+    margin-left: -10px;
+    border-radius: 100px;
+}
+.timeicon{
+    width: 130px;
+    margin-bottom: -180px;
+    margin-left: -10px;
+    border-radius: 100px;
+}
+.emergencyicon{
+    width: 130px;
+    margin-bottom: -180px;
+    margin-left: -10px;
+    border-radius: 100px;
+}
+.abt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 45%;
+    margin-top: 10%;
+    text-decoration: underline 9px yellow;
+    
+
+}
+.below h4{
+    margin-top: -36%;
+    margin-left: 08%;
+    
+}
+.f1{
+    width:70%;
+    margin-left: 30%;
+    
+}
